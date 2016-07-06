@@ -15,6 +15,8 @@
 		6EFB75AD1D2B9E3C00999099 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EFB75AB1D2B9E3C00999099 /* LaunchScreen.storyboard */; };
 		6EFB75B81D2B9E4200999099 /* GuideToFurtherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFB75B71D2B9E4200999099 /* GuideToFurtherTests.m */; };
 		6EFB75C31D2B9E4300999099 /* GuideToFurtherUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFB75C21D2B9E4300999099 /* GuideToFurtherUITests.m */; };
+		6EFB76111D2BB70300999099 /* NewLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFB76101D2BB70300999099 /* NewLabel.m */; };
+		6EFB76181D2D09DE00999099 /* NewTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFB76171D2D09DE00999099 /* NewTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		6EFB75BE1D2B9E4300999099 /* GuideToFurtherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuideToFurtherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EFB75C21D2B9E4300999099 /* GuideToFurtherUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuideToFurtherUITests.m; sourceTree = "<group>"; };
 		6EFB75C41D2B9E4300999099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EFB760F1D2BB70300999099 /* NewLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewLabel.h; sourceTree = "<group>"; };
+		6EFB76101D2BB70300999099 /* NewLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewLabel.m; sourceTree = "<group>"; };
+		6EFB76161D2D09DE00999099 /* NewTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTableViewController.h; sourceTree = "<group>"; };
+		6EFB76171D2D09DE00999099 /* NewTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				6EFB75A11D2B9E3C00999099 /* AppDelegate.m */,
 				6EFB75A31D2B9E3C00999099 /* ViewController.h */,
 				6EFB75A41D2B9E3C00999099 /* ViewController.m */,
+				6EFB760F1D2BB70300999099 /* NewLabel.h */,
+				6EFB76101D2BB70300999099 /* NewLabel.m */,
+				6EFB76161D2D09DE00999099 /* NewTableViewController.h */,
+				6EFB76171D2D09DE00999099 /* NewTableViewController.m */,
 				6EFB75A61D2B9E3C00999099 /* Main.storyboard */,
 				6EFB75A91D2B9E3C00999099 /* Assets.xcassets */,
 				6EFB75AB1D2B9E3C00999099 /* LaunchScreen.storyboard */,
@@ -273,6 +283,8 @@
 				6EFB75A51D2B9E3C00999099 /* ViewController.m in Sources */,
 				6EFB75A21D2B9E3C00999099 /* AppDelegate.m in Sources */,
 				6EFB759F1D2B9E3C00999099 /* main.m in Sources */,
+				6EFB76181D2D09DE00999099 /* NewTableViewController.m in Sources */,
+				6EFB76111D2BB70300999099 /* NewLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +510,7 @@
 				6EFB75C91D2B9E4300999099 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EFB75CA1D2B9E4300999099 /* Build configuration list for PBXNativeTarget "GuideToFurtherTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +519,7 @@
 				6EFB75CC1D2B9E4300999099 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EFB75CD1D2B9E4300999099 /* Build configuration list for PBXNativeTarget "GuideToFurtherUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +528,7 @@
 				6EFB75CF1D2B9E4300999099 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
