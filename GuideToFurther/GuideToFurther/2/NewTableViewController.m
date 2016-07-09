@@ -7,7 +7,7 @@
 //
 
 #import "NewTableViewController.h"
-
+#import "NewTableViewCell.h"
 @interface NewTableViewController ()
 
 @end
@@ -44,9 +44,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
-    
-    // Configure the cell...
-    
+//    NewTableViewCell *textCell = [[[NSBundle mainBundle] loadNibNamed:@"TextTableViewCell" owner:self options:nil] lastObject];
     return cell;
 }
 
