@@ -12,6 +12,9 @@
 		6E1B51901D2F8763006F836E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1B518E1D2F8763006F836E /* ViewController.m */; };
 		6E1B51941D2F877A006F836E /* NewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1B51921D2F877A006F836E /* NewTableViewCell.m */; };
 		6E1B51951D2F877A006F836E /* NewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E1B51931D2F877A006F836E /* NewTableViewCell.xib */; };
+		6E34572C1D348C2B00FAB866 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E34572B1D348C2B00FAB866 /* MyView.m */; };
+		6E34572F1D34979800FAB866 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E34572E1D34979800FAB866 /* UIImage+RoundedCorner.m */; };
+		6E3457351D34B6B400FAB866 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3457341D34B6B400FAB866 /* OneViewController.m */; };
 		6E91EFDA1D2E32C4007CD02C /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E91EFD91D2E32C4007CD02C /* 1.png */; };
 		6EFB759F1D2B9E3C00999099 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFB759E1D2B9E3C00999099 /* main.m */; };
 		6EFB75A21D2B9E3C00999099 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFB75A11D2B9E3C00999099 /* AppDelegate.m */; };
@@ -50,6 +53,12 @@
 		6E1B51911D2F877A006F836E /* NewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTableViewCell.h; sourceTree = "<group>"; };
 		6E1B51921D2F877A006F836E /* NewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTableViewCell.m; sourceTree = "<group>"; };
 		6E1B51931D2F877A006F836E /* NewTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTableViewCell.xib; sourceTree = "<group>"; };
+		6E34572A1D348C2B00FAB866 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		6E34572B1D348C2B00FAB866 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		6E34572D1D34979800FAB866 /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		6E34572E1D34979800FAB866 /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		6E3457331D34B6B400FAB866 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		6E3457341D34B6B400FAB866 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
 		6E91EFD91D2E32C4007CD02C /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		6EFB759A1D2B9E3C00999099 /* GuideToFurther.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuideToFurther.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EFB759E1D2B9E3C00999099 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -110,9 +119,15 @@
 				6E1B518C1D2F8763006F836E /* NewTableViewController.m */,
 				6E1B518D1D2F8763006F836E /* ViewController.h */,
 				6E1B518E1D2F8763006F836E /* ViewController.m */,
+				6E34572D1D34979800FAB866 /* UIImage+RoundedCorner.h */,
+				6E34572E1D34979800FAB866 /* UIImage+RoundedCorner.m */,
+				6E34572A1D348C2B00FAB866 /* MyView.h */,
+				6E34572B1D348C2B00FAB866 /* MyView.m */,
 				6E1B51911D2F877A006F836E /* NewTableViewCell.h */,
 				6E1B51921D2F877A006F836E /* NewTableViewCell.m */,
 				6E1B51931D2F877A006F836E /* NewTableViewCell.xib */,
+				6E3457331D34B6B400FAB866 /* OneViewController.h */,
+				6E3457341D34B6B400FAB866 /* OneViewController.m */,
 			);
 			path = 2;
 			sourceTree = "<group>";
@@ -315,9 +330,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E1B51901D2F8763006F836E /* ViewController.m in Sources */,
+				6E3457351D34B6B400FAB866 /* OneViewController.m in Sources */,
+				6E34572F1D34979800FAB866 /* UIImage+RoundedCorner.m in Sources */,
 				6E1B51001D2E9CA3006F836E /* Car.m in Sources */,
 				6EFB75A21D2B9E3C00999099 /* AppDelegate.m in Sources */,
 				6EFB759F1D2B9E3C00999099 /* main.m in Sources */,
+				6E34572C1D348C2B00FAB866 /* MyView.m in Sources */,
 				6E1B518F1D2F8763006F836E /* NewTableViewController.m in Sources */,
 				6EFB76111D2BB70300999099 /* NewLabel.m in Sources */,
 				6E1B51941D2F877A006F836E /* NewTableViewCell.m in Sources */,

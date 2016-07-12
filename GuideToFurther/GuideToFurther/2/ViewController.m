@@ -7,17 +7,28 @@
 //
 
 #import "ViewController.h"
-
+#import "MyView.h"
 @interface ViewController ()
 @property (nonatomic,strong)UIView *redView;
 @property (nonatomic,strong)UIView *yellowView;
+@property (nonatomic,strong)UIImageView *image;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    MyView *view = [[MyView alloc]initWithFrame:CGRectMake(100,100, 100, 200)];
+    
+    [self.view addSubview:view];
+    
+//    _image = [[UIImageView alloc]initWithFrame:CGRectMake(100, 100, 100, 200)];
 //    
+//    _image.image = [UIImage imageNamed:@"1"];
+//    
+//    [self.view addSubview:_image];
+    
 //    _redView = [UIView new];
 //    _redView.frame = CGRectMake(0, 200, 200, 200);
 //    _redView.backgroundColor = [UIColor redColor];
@@ -55,3 +66,4 @@
 }
 
 @end
+
