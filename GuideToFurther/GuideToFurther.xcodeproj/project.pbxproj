@@ -15,6 +15,7 @@
 		6E34572C1D348C2B00FAB866 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E34572B1D348C2B00FAB866 /* MyView.m */; };
 		6E34572F1D34979800FAB866 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E34572E1D34979800FAB866 /* UIImage+RoundedCorner.m */; };
 		6E3457351D34B6B400FAB866 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3457341D34B6B400FAB866 /* OneViewController.m */; };
+		6E34577A1D34F16100FAB866 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3457791D34F16100FAB866 /* TwoViewController.m */; };
 		6E91EFDA1D2E32C4007CD02C /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E91EFD91D2E32C4007CD02C /* 1.png */; };
 		6EFB759F1D2B9E3C00999099 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFB759E1D2B9E3C00999099 /* main.m */; };
 		6EFB75A21D2B9E3C00999099 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFB75A11D2B9E3C00999099 /* AppDelegate.m */; };
@@ -59,6 +60,8 @@
 		6E34572E1D34979800FAB866 /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
 		6E3457331D34B6B400FAB866 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
 		6E3457341D34B6B400FAB866 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		6E3457781D34F16000FAB866 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		6E3457791D34F16100FAB866 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
 		6E91EFD91D2E32C4007CD02C /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		6EFB759A1D2B9E3C00999099 /* GuideToFurther.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuideToFurther.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EFB759E1D2B9E3C00999099 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -128,6 +131,8 @@
 				6E1B51931D2F877A006F836E /* NewTableViewCell.xib */,
 				6E3457331D34B6B400FAB866 /* OneViewController.h */,
 				6E3457341D34B6B400FAB866 /* OneViewController.m */,
+				6E3457781D34F16000FAB866 /* TwoViewController.h */,
+				6E3457791D34F16100FAB866 /* TwoViewController.m */,
 			);
 			path = 2;
 			sourceTree = "<group>";
@@ -329,6 +334,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E34577A1D34F16100FAB866 /* TwoViewController.m in Sources */,
 				6E1B51901D2F8763006F836E /* ViewController.m in Sources */,
 				6E3457351D34B6B400FAB866 /* OneViewController.m in Sources */,
 				6E34572F1D34979800FAB866 /* UIImage+RoundedCorner.m in Sources */,
